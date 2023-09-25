@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -286,6 +289,7 @@ body{
     margin: auto;
     margin-top: 10rem;
     justify-content: space-between;
+    align-items: center;
 }
 .service-item{
     width: 25%;
@@ -331,6 +335,358 @@ body{
 .work-card{
     background-color: rgba(0, 122, 255, 0.5);
     height: 800px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.work-item{
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+}
+.work-item i{
+    font-size: 50px;
+    border: 5px solid blue;
+    margin: 38px;
+    padding: 29px;
+    border-radius: 69px;
+    color: white
+}
+.work-item span{
+    color: #efe9de;
+    font-size: 24px
+}
+.work-item p{
+    color: white;
+    font-size: 1.25rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em
+}
+#portfolio{
+    background-color: #f5f5f5;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+}
+.portfolio-heading{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 6rem;
+}
+.portfolio-heading h1{
+    font-size: 3.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+}
+.portfolio-heading p{
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    margin-bottom: 12px;
+}
+.folio-card{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.folio-item{
+    width: 24%;
+    padding: 2.5rem 1.3rem;
+    background: #fff;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 20%);
+    border-radius: 1rem;
+}
+.folio-item img{
+    width: 100%;
+}
+.folio-context{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.folio-context-1 p{
+    font-size: 1.25rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em
+}
+.folio-context-2{
+    color: #0078ff;
+    width: 40px;
+    border: 3px solid blue;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.parallex-3{
+    background-image: url(./images/third-backgound.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#blog{
+    background-color: #f5f5f5;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+}
+.blog-heading{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 6rem;
+}
+.blog-heading h1{
+    font-size: 3.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+}
+.blog-heading p{
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    margin-bottom: 12px;
+}
+.blog-card{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-item{
+    width: 27%;
+    background: #fff;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    margin-bottom: 50px;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+.blog-item img{
+    width: 100%;
+}
+.blog-item .mini-box{
+    color: white;
+    height: auto;
+    margin: -15px auto auto auto;
+    text-align: center;
+}
+.mini-box span{
+    padding: 7px 15px;
+    font-size: 11px;
+    background: blue;
+    border-radius: 3px;
+}
+.blog-context{
+    margin: 24px 10px 0px;
+    text-align: center;
+}
+.blog-context a{
+    color: #57a6ff;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.334;
+}
+.blog-context p{
+    color: #4e4e4e;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    margin-bottom: 15px;
+}
+.blog-last{
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 8px 10px;
+    overflow: hidden;
+    min-height: 30px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-left{
+float: left;
+}
+.blog-right{
+    float: right;
+}
+.blog-left img{
+    width: 32px;
+    height: 32px;
+    margin-right: 9px;
+    border-radius: 50%;
+    vertical-align: middle
+}
+.blog-right span{
+    vertical-align: middle;
+}
+.blog-left a{
+    color: #57a6ff;
+    text-decoration: none;
+}
+.blog-right img{
+    width: 20px;
+    vertical-align: middle;
+}
+.parallex-4{
+    background-image: url(./images/pexels-kammeran-gonzalezkeola-9638689.jpg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:900px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main-content{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.context-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.context-1 h4{
+    font-size: 2.125rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+}
+.input-box{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 3rem;
+}
+input{
+    width:76%;
+    margin: auto;
+    height:45px;
+    padding-left: 16px;
+    font-size: 18px;
+    border-radius: 3px;
+    border:1px solid gray;
+}
+
+textarea{
+    margin: auto;
+    width: 78.5%;
+}
+.button{
+    margin: auto;
+}
+button{
+    font-size: 0.875rem;
+    padding: 19px 40px;
+    border-radius: 32px;
+    color: white;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #3f51b5;
+    border-color: #3f51b5;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+}
+button:hover{
+    cursor: pointer;
+    border-color:white ;
+    color:#3f51b5 ;
+    background-color: white;
+}
+.context-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.context-2 h4{
+    font-size: 2.125rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+}
+.context-2>p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: justify;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    margin-bottom: 15px;
+    width: 89%;
+}
+.mui-item{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 87%;
+}
+.item{
+    display: flex;
+    justify-content: flex-start;
+}
+.item>p{
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+.icons-list{
+    display: flex;
+    gap: 30px;
+    margin-top: 4rem;
+}
+.icons-list img{
+    border: 2px solid blue;
+    padding: 13px;
+    border-radius: 22px;
+}
+footer{
+    text-align: center;
+    padding: 25px 0px;
+    background-color: rgb(0, 98, 211);
+    color: white;
 }
 @media only screen and (max-width:1030px){
     .nav-buttons{
@@ -354,13 +710,66 @@ body{
     width: 100%;
     text-align: center;
 }
+#services{
+    padding-bottom: 3rem;
+}
 .service-card{
     flex-direction: column;
     gap: 10px;
     margin-top: 3rem;
 }
 .service-item{
+    width:85%;
+    align-items: center;
+    text-align: center;
+}
+.parallex-2{
+    height: 980px;
+}
+.work-card{
+    flex-direction: column;
+    gap: 10px;
+    height: 980px;
+}
+.work-item i{
+    margin: 27px;
+}
+.work-item{
+    height: 238px;
+}
+.folio-card{
+    flex-direction: column;
+    gap: 18px;
+}
+.folio-item{
     width: 90%;
+}
+.blog-card{
+    flex-direction: column;
+    gap: 18px;
+}
+.blog-item{
+    width: 90%;
+}
+.parallex-4{
+    height: 1300px;
+    background-position: center;
+}
+.main-content{
+    width: 90%;
+    flex-direction: column;
+    gap: 28px;
+}
+.context-1{
+    width: 100%;
+}
+input{
+    width: 80%;
+}
+.context-2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 }
 
@@ -374,4 +783,6 @@ body{
 .parallex-1 h1{
     font-size: 1.7rem;
 }
+
+
 }
