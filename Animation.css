@@ -1,0 +1,78 @@
+@keyframes animate {
+    0%{
+      content:'Photographer';
+      color: red;
+    }
+    25%{
+      content:'Developer';
+      color: aqua;
+    }
+    50%{
+      content:'Freelancer';
+      color: blue;
+    }
+    75%{
+        content:'Designer';
+        color: rgb(208, 245, 44);
+    }
+    100%{
+      content:'Photographer';
+      color: red;
+    }
+}
+@keyframes color-1 {
+  0%{
+    width: 0%;
+  }
+  30%{
+    width: 22.6%;
+  }
+  60%{
+    width: 45.2%;
+  }
+  100%{
+    width: 68%
+  }
+}
+@keyframes color-2 {
+  0%{
+    width: 0%;
+  }
+  30%{
+    width: 17.6%;
+  }
+  60%{
+    width: 35.6%;
+  }
+  100%{
+    width: 53%
+  }
+}
+@keyframes color-3 {
+  0%{
+    width: 0%;
+  }
+  30%{
+    width: 12%;
+  }
+  60%{
+    width: 24%;
+  }
+  100%{
+    width: 36%
+  }
+}
+@keyframes color-4 {
+  0%{
+    width: 0%;
+  }
+  30%{
+    width: 25%;
+  }
+  60%{
+    width: 50%;
+  }
+  100%{
+    width: 73%
+  }
+}
