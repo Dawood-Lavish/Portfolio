@@ -23,12 +23,15 @@
 @keyframes color-1 {
   0%{
     width: 0%;
+   background-color: aqua;
   }
   30%{
     width: 22.6%;
+    background-color: rgb(137, 233, 180);
   }
   60%{
     width: 45.2%;
+    background-color: pink;
   }
   100%{
     width: 68%
@@ -37,12 +40,15 @@
 @keyframes color-2 {
   0%{
     width: 0%;
+    background-color: aqua;
   }
   30%{
     width: 17.6%;
+    background-color: rgb(137, 233, 180);
   }
   60%{
     width: 35.6%;
+    background-color: pink;
   }
   100%{
     width: 53%
@@ -51,12 +57,15 @@
 @keyframes color-3 {
   0%{
     width: 0%;
+    background-color: aqua;
   }
   30%{
     width: 12%;
+    background-color: rgb(137, 233, 180);
   }
   60%{
     width: 24%;
+    background-color: pink;
   }
   100%{
     width: 36%
@@ -64,13 +73,13 @@
 }
 @keyframes color-4 {
   0%{
-    width: 0%;
+    width: 0%; background-color: aqua;
   }
   30%{
-    width: 25%;
+    width: 25%;background-color: rgb(137, 233, 180);
   }
   60%{
-    width: 50%;
+    width: 50%;background-color: pink;
   }
   100%{
     width: 73%
