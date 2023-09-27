@@ -8,8 +8,8 @@
       color: aqua;
     }
     50%{
-      content:'Freelancer';
-      color: blue;
+      content:'Student';
+      color: rgb(238, 74, 230);
     }
     75%{
         content:'Designer';
