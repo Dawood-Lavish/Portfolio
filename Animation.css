@@ -85,3 +85,17 @@
     width: 73%
   }
 }
+@keyframes hidden-content {
+  0%{
+    width: 12.5%;
+  }
+  30%{
+    width: 25%;
+  }
+  60%{
+    width: 37.5%;
+  }
+  100%{
+    width: 50.0%;
+  }
+}

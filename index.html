@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Animation.css">
     <title>Port-Folio</title>
@@ -13,7 +14,7 @@
         <section>
             <div class="nav-header">
                 <div class="nav-logo"><img src="images/log-1.png" alt=""></div>
-                <div class="nav-buttons">
+                <div class="nav-buttons" data-aos="fade-up">
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#services">SERVICES</a></li>
@@ -29,22 +30,13 @@
                     </div>
                     <div class="dropdown-content">
                         <div class="dropdown-content-1">
-                            <li><i class="fa fa-envelope" style="font-size:24px; color: rgb(160, 154, 154);">
-                            </i><a href="#">Inbox</a></li>
-                            <li><i class="fa fa-download" style="font-size:24px; color: rgb(160, 154, 154);">
-                            </i><a href="#">Starred</a></li>
-                            <li><i class="fa fa-envelope-open" style="font-size:24px; color: rgb(160, 154, 154);">
-                            </i><a href="#">Send mail</a></li>
-                            <li><i class="fa fa-download" style="font-size:24px; color: rgb(160, 154, 154);">
-                            </i><a href="#">Draft</a></li>
-                        </div>
-                        <div class="dropdown-content-2">
-                            <li><i class="fa fa-envelope" style="font-size:24px; color: rgb(160, 154, 154);">
-                            </i><a href="#">All mail</a></li>
-                            <li><i class="fa fa-download" style="font-size:24px; color: rgb(160, 154, 154);">
-                            </i><a href="#">Trash</a></li>
-                            <li><i class="fa fa-envelope-open" style="font-size:24px; color: rgb(160, 154, 154);">
-                            </i><a href="#">Spam</a></li>
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#services">SERVICES</a></li>
+                            <li><a href="#work">WORK</a></li>
+                            <li><a href="#blog">BLOG</a></li>
+                            <li><a href="#portfolio">DROPDOWN</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
                         </div>
                     </div>
                 </div>
@@ -55,15 +47,15 @@
 <div id="home">
     <section>
         <div class="parallex-1">
-            <h1>I am Dawood</h1>
-            <span></span>
+            <h1 data-aos="fade-right">I am Dawood</h1>
+            <span data-aos="fade-right"></span>
         </div>
     </section>
 </div>
 
 <div id="about">
 
-    <div class="about-back">
+    <div class="about-back" data-aos="fade-right" >
        <div class="about-1">
         <div class="about-information">
             <img src="./images/person-image.jpg" alt="">
@@ -118,7 +110,7 @@
 </div>
 
 <div id="services">
-    <div class="service-heading">
+    <div class="service-heading" data-aos="slide-down">
         <h1>Services</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
         <hr style="width: 40px;
@@ -129,17 +121,17 @@
         ;margin-top: 14px;">
     </div>
     <div class="service-card">
-        <div class="service-item">
+        <div class="service-item"  data-aos="fade-up">
             <i class="fa fa-briefcase"></i>
             <h2>WEB DESIGN</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
         </div>
-        <div class="service-item">
+        <div class="service-item"  data-aos="fade-up">
             <i class="fa fa-briefcase"></i>
             <h2>WEB DEVELOPMENT</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
         </div>
-        <div class="service-item">
+        <div class="service-item"  data-aos="fade-up">
             <i class="fa fa-briefcase"></i>
             <h2>PHOTOGRAPHY</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
@@ -147,17 +139,17 @@
     </div>
 
     <div class="service-card">
-        <div class="service-item">
+        <div class="service-item"  data-aos="fade-down">
             <i class="fa fa-briefcase"></i>
             <h2>RESPONSIVE DESIGN</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
         </div>
-        <div class="service-item">
+        <div class="service-item"  data-aos="fade-down">
             <i class="fa fa-briefcase"></i>
             <h2>GRAPHIC DESIGN</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
         </div>
-        <div class="service-item">
+        <div class="service-item"  data-aos="fade-down">
             <i class="fa fa-briefcase"></i>
             <h2>MARKETING SERVICES</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
@@ -169,7 +161,7 @@
 <div id="work">
     <section>
         <div class="parallex-2">
-            <div class="work-card">
+            <div class="work-card"  data-aos="zoom-in">
                 <div class="work-item">
                     <i class="fa fa-briefcase"></i>
                     <span>010</span>
@@ -197,7 +189,7 @@
 
   <div id="portfolio">
         <section>
-            <div class="portfolio-heading">
+            <div class="portfolio-heading"  data-aos="zoom-in">
                 <h1>Portfolio</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 <hr style="width: 40px;
@@ -208,7 +200,7 @@
             </div>
 
             <div class="folio-card">
-                <div class="folio-item">
+                <div class="folio-item"  data-aos="zoom-in">
                     <center><img src="./images/portfolio-img.jpg" alt=""></center>
                     <div class="folio-context">
                         <div class="folio-context-1">
@@ -218,7 +210,7 @@
                         <div class="folio-context-2"> + </div>
                     </div>
                 </div>
-                <div class="folio-item">
+                <div class="folio-item" data-aos="zoom-in">
                     <center><img src="./images/portfolio-img.jpg" alt=""></center>
                     <div class="folio-context">
                         <div class="folio-context-1">
@@ -228,7 +220,7 @@
                         <div class="folio-context-2"> + </div>
                     </div>
                 </div>
-                <div class="folio-item">
+                <div class="folio-item"  data-aos="zoom-in">
                     <center><img src="./images/portfolio-img.jpg" alt=""></center>
                     <div class="folio-context">
                         <div class="folio-context-1">
@@ -241,7 +233,7 @@
             </div>
 
             <div class="folio-card">
-                <div class="folio-item">
+                <div class="folio-item"  data-aos="zoom-in">
                     <center><img src="./images/portfolio-img.jpg" alt=""></center>
                     <div class="folio-context">
                         <div class="folio-context-1">
@@ -251,7 +243,7 @@
                         <div class="folio-context-2"> + </div>
                     </div>
                 </div>
-                <div class="folio-item">
+                <div class="folio-item"  data-aos="zoom-in">
                     <center><img src="./images/portfolio-img.jpg" alt=""></center>
                     <div class="folio-context">
                         <div class="folio-context-1">
@@ -261,7 +253,7 @@
                         <div class="folio-context-2"> + </div>
                     </div>
                 </div>
-                <div class="folio-item">
+                <div class="folio-item" data-aos="zoom-in">
                     <center><img src="./images/portfolio-img.jpg" alt=""></center>
                     <div class="folio-context">
                         <div class="folio-context-1">
@@ -283,7 +275,7 @@
   </section>
   <div id="blog">
     <section>
-        <div class="blog-heading">
+        <div class="blog-heading" data-aos="fade-right">
             <h1>Blog</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 <hr style="width: 40px;
@@ -293,7 +285,7 @@
                 background: blue">
         </div>
         <div class="blog-card">
-            <div class="blog-item">
+            <div class="blog-item"  data-aos="fade-down">
                 <center><img src="./images/pexels-ken-cheung-7459424.jpg" alt=""></center>
                 <div class="mini-box"><span>Web-Design</span></div>
                 <div class="blog-context">
@@ -311,7 +303,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-item">
+            <div class="blog-item"  data-aos="fade-down">
                 <center><img src="./images/pexels-petr-ganaj-18346915.jpg" alt=""></center>
                 <div class="mini-box"><span>Web-Design</span></div>
                 <div class="blog-context">
@@ -329,7 +321,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-item">
+            <div class="blog-item"  data-aos="fade-down">
                 <center><img src="./images/pexels-kammeran-gonzalezkeola-9638689.jpg" alt=""></center>
                 <div class="mini-box"><span>Web-Design</span></div>
                 <div class="blog-context">
@@ -350,7 +342,7 @@
         </div>
 
         <div class="blog-card">
-            <div class="blog-item">
+            <div class="blog-item"  data-aos="zoom-out">
                 <center><img src="./images/pexels-gianluca-grisenti-17427998.jpg" alt=""></center>
                 <div class="mini-box"><span>Web-Design</span></div>
                 <div class="blog-context">
@@ -368,7 +360,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-item">
+            <div class="blog-item" data-aos="zoom-out">
                 <center><img src="./images/pexels-max-ravier-5605765.jpg" alt=""></center>
                 <div class="mini-box"><span>Web-Design</span></div>
                 <div class="blog-context">
@@ -386,7 +378,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-item">
+            <div class="blog-item" data-aos="zoom-out">
                 <center><img src="./images/pexels-aron-visuals-1743165.jpg" alt=""></center>
                 <div class="mini-box"><span>Web-Design</span></div>
                 <div class="blog-context">
@@ -411,7 +403,7 @@
   <div id="contact">
     <section>
         <div class="parallex-4">
-            <div class="main-content">
+            <div class="main-content" data-aos="fade-up" >
                 <div class="context-1">
                     <h4>Send Message To Us</h4>
                     <hr style="width: 80px;
@@ -419,10 +411,10 @@
                     background-color: blue;
                     border: 0px;">
                     <div class="input-box">
-                        <input type="text" placeholder="Name" >
-                        <input type="text" placeholder="E-mail" >
-                        <input type="text" placeholder="Subject" >
-                       <textarea placeholder="Message" cols="63" rows="10"></textarea>
+                        <input type="text" placeholder="Name" data-aos="fade-right">
+                        <input type="text" placeholder="E-mail" data-aos="fade-right" >
+                        <input type="text" placeholder="Subject" data-aos="fade-right">
+                       <textarea placeholder="Message" cols="63" rows="10" data-aos="fade-right"></textarea>
                     </div>
                     <div class="button">
                         <button>SEND MESSAGE</button>
@@ -453,10 +445,10 @@
                         </div>
                     </div>
                     <div class="icons-list">
-                        <img src="./images/facebook icon.jpg" alt="">
-                        <img src="./images/in icon.jpg" alt="">
-                        <img src="./images/land icon.jpg" alt="">
-                        <img src="./images/insta icon.jpg" alt="">
+                        <img src="./images/facebook icon.jpg" alt="" data-aos="fade-left">
+                        <img src="./images/in icon.jpg" alt="" data-aos="fade-down">
+                        <img src="./images/land icon.jpg" alt="" data-aos="fade-up">
+                        <img src="./images/insta icon.jpg" alt="" data-aos="fade-right">
                     </div>
                 </div>
             </div>
@@ -470,5 +462,12 @@
     <p>Designed by <a style="color: red; text-decoration: none;" href="#">Dawood</a></p>
     <img src="./images/log-1.png" alt="">
   </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+
 </body>
 </html>
