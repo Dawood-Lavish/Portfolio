@@ -662,13 +662,18 @@ button:hover{
 }
 .icons-list{
     display: flex;
-    gap: 30px;
+    gap: 45px;
     margin-top: 4rem;
 }
 .icons-list img{
+    width: 50px;
     border: 2px solid blue;
-    padding: 13px;
-    border-radius: 22px;
+    /* padding: 13px; */
+    border-radius: 19px;
+}
+.icons-list img:hover{
+    cursor: pointer;
+    background: black;
 }
 footer{
     text-align: center;

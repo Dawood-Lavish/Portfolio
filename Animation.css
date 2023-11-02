@@ -99,3 +99,43 @@
     width: 50.0%;
   }
 }
+.wrapper{
+  padding: 20px;
+ 
+}
+.wrapper .input-text{
+height: 40px;
+width: 100%;
+position: relative;
+}
+.wrapper .input-text input:focus{
+  border: none;
+}
+.wrapper .input-text input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgb(24, 11, 11);
+  font-size: 17px;
+}
+.input-text input:focus ~ label,
+.input-text input:valid ~ label{
+  transform: translateY(-30px);
+  color: #4158d0;
+  font-size: 15px;
+}
+.wrapper .input-text label{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: gray;
+  pointer-events: none;
+  transition: all .3s ease;
+}
+/* .wrapper .input-text .underline{
+  position: absolute;
+  bottom: -2.5px;
+  height: 0.2px;
+  width: 100%;
+  background:#4158d0;
+} */
