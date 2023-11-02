@@ -59,11 +59,12 @@ body{
     background: linear-gradient(160deg, rgba(9,121,92,1) 24%, rgba(218,0,255,1) 100%);
     right: 5px;
     top: 51px;
-    width: 50%;
-    /* height: 280px; */
+    text-align: center;
+    width: 100%;
+    /* height: 100%; */
     padding-top: 1.3rem;
     box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2), 0px 16px 24px 2px rgba(0,0,0,0.14), 0px 6px 30px 5px rgba(0,0,0,0.12);
-    animation:hidden-content 0.5s 1 linear;
+    animation:hidden-content 0.3s 1 linear;
 }
 .dropdown-content-1 {
     display: flex;
@@ -595,23 +596,26 @@ textarea{
 .button{
     margin: auto;
 }
-button{
-    font-size: 0.875rem;
-    padding: 19px 40px;
-    border-radius: 32px;
-    color: white;
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
-    background-color: #3f51b5;
-    border-color: #3f51b5;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 500;
-    line-height: 1.75;
-}
-button:hover{
-    cursor: pointer;
-    border-color:white ;
-    color:#3f51b5 ;
+.button input
+{
+    width: 100px;
+    margin: auto;
+    height: 45px;
+    padding-left: 16px;
+    font-size: 18px;
+    border-radius: 18px;
+    border: 1px solid gray;
+    display: flex;
+    text-align: center;
+    color: #0078ff;
     background-color: white;
+    font-weight: bold;
+}
+
+.button input:hover{
+    color: white;
+    background-color: #0078ff;
+    cursor: pointer;
 }
 .context-2 {
     width: 50%;
