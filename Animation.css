@@ -132,10 +132,3 @@ position: relative;
   pointer-events: none;
   transition: all .3s ease;
 }
-/* .wrapper .input-text .underline{
-  position: absolute;
-  bottom: -2.5px;
-  height: 0.2px;
-  width: 100%;
-  background:#4158d0;
-} */

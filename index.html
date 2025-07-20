@@ -9,7 +9,23 @@
     <link rel="stylesheet" href="Animation.css">
     <title>Port-Folio</title>
 </head>
+<style>
+    body{
+        position: relative;
+    }
+    .curser{
+        background-color: rgb(219, 202, 202);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        z-index: 9999;
+        border-radius: 15px;
+        transition: all linear 0.2s;
+        mix-blend-mode: difference;
+   }
+</style>
 <body>
+    <div class="curser"></div>
     <div id="nav">
         <section>
             <div class="nav-header">
@@ -26,11 +42,12 @@
 
                 <div class="hidden-content">
                     <div class="manu-icon">
-                        <i class="fa fa-bars" style="font-size:24px"></i>
+                        <i class="fa fa-bars" id="old" style="font-size:24px"></i>
+                          <i class="fa fa-close" id="close" style="font-size:24px ; display: none;" ></i>
                     </div>
                     <div class="dropdown-content">
                         <div class="dropdown-content-1">
-                            <li><a href="#home">HOME</a></li>
+                            <li data-aos="fade-right"><a href="#home">HOME</a></li>
                             <li><a href="#about">ABOUT</a></li>
                             <li><a href="#services">SERVICES</a></li>
                             <li><a href="#work">WORK</a></li>
@@ -484,6 +501,8 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init();
+    </script>
+    <script src="./my.js">
     </script>
 
 
