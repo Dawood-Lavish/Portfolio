@@ -206,6 +206,7 @@ body{
     font-size: 13px;
     text-align: center;
     color: white;
+    padding: 7px;
 }
 .skill-bar .color-1{
     background: #e67e22;
@@ -677,6 +678,20 @@ textarea{
 .icons-list img:hover{
     cursor: pointer;
     background: black;
+    animation: goma 0.5s linear 0s;
+    animation-fill-mode: forwards;
+   
+}
+@keyframes goma {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+rotate: 70deg;
+    }
+    100%{
+           /* rotate: 0deg; */
+    }
 }
 footer{
     text-align: center;
