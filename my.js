@@ -1,3 +1,5 @@
+// alert("Are Your Sure To Use this Portfolio!")
+
 let bood = document.querySelector("body");
 let curs = document.querySelector(".curser");
 
